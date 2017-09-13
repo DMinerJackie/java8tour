@@ -4,7 +4,7 @@ package lambda;
  * Created by jackie on 17/9/12.
  */
 public class Apple {
-    private int weight;
+    private Integer weight;
     private String color;
 
     public Apple() {
@@ -15,11 +15,11 @@ public class Apple {
         this.color = color;
     }
 
-    public int getWeight() {
+    public Integer getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(Integer weight) {
         this.weight = weight;
     }
 
