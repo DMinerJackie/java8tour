@@ -1,6 +1,7 @@
 package lambda;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.function.Consumer;
@@ -14,6 +15,12 @@ import java.util.function.Supplier;
 public class GeneralTest {
 
     public static void main(String[] args) {
+        List<String> sourceList = Arrays.asList("a", "b");
+        List<String> destList = new ArrayList<>();
+        System.out.println("+++:" + destList);
+        sourceList.forEach(destList::add);
+        System.out.println("+++:" + destList);
+
         // lambda
         Predicate<String> predicate = s -> s.length() > 0;
 
