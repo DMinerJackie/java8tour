@@ -1,4 +1,4 @@
-package lambda;
+package model;
 
 /**
  * Created by jackie on 17/9/12.

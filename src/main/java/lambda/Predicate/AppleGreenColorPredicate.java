@@ -1,4 +1,6 @@
-package lambda;
+package lambda.Predicate;
+
+import model.Apple;
 
 /**
  * Created by jackie on 17/9/12.

@@ -1,5 +1,10 @@
 package lambda;
 
+import lambda.Predicate.AppleGreenColorPredicate;
+import lambda.Predicate.AppleHeavyWeightPredicate;
+import lambda.Predicate.ApplePredicate;
+import model.Apple;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +12,7 @@ import java.util.List;
 /**
  * Created by jackie on 17/9/12.
  */
-public class FilterApple {
+public class FilterAppleLambda {
 
     public static void main(String[] args) {
         List<Apple> inventory = Arrays.asList(new Apple(100, "green"),
